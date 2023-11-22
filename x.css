@@ -1,11 +1,29 @@
-* {
-    box-sizing: border-box;
+/* Default styles for all screens */
+body {
+    font-size: 100%;
   }
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px ;
+  
+  /* Media query for screens with a maximum width of 600px */
+  @media only screen and (max-width: 100%) {
+    body {
+      font-size: 100%;
+    }
   }
+  
+  /* Media query for screens with a minimum width of 601px and a maximum of 1200px */
+  @media only screen and (min-width: 100%) and (max-width: 100%) {
+    body {
+      font-size: 100%;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 1201px */
+  @media only screen and (min-width: 100%) {
+    body {
+      font-size: 100%;
+    }
+  }
+  
   /*<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="x.css">
       */
